@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8160DDEC26083C7C00BAF503 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160DDEB26083C7C00BAF503 /* SettingsScreen.swift */; };
+		8160DDF426083C9200BAF503 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160DDF326083C9200BAF503 /* CalendarScreen.swift */; };
+		8160DDF926083CA100BAF503 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160DDF826083CA100BAF503 /* HomeScreen.swift */; };
+		8160DE012608631F00BAF503 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160DE002608631F00BAF503 /* TabBarController.swift */; };
+		8160DE1D26087E6500BAF503 /* add_button_initial-final.json in Resources */ = {isa = PBXBuildFile; fileRef = 8160DE1B26087E6400BAF503 /* add_button_initial-final.json */; };
+		8160DE2626087F3300BAF503 /* CGHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160DE2526087F3300BAF503 /* CGHelper.swift */; };
+		8169F559261FE68F00D67EA4 /* AddButton_withoutBubblesNum.json in Resources */ = {isa = PBXBuildFile; fileRef = 8169F558261FE68F00D67EA4 /* AddButton_withoutBubblesNum.json */; };
+		816CA92A26098F6400798848 /* AddHabitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816CA92926098F6400798848 /* AddHabitScreen.swift */; };
 		81C74F5F25FB3284003ED4ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C74F5E25FB3284003ED4ED /* AppDelegate.swift */; };
 		81C74F6125FB3284003ED4ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C74F6025FB3284003ED4ED /* SceneDelegate.swift */; };
 		81C74F6325FB3284003ED4ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C74F6225FB3284003ED4ED /* ViewController.swift */; };
@@ -15,6 +23,15 @@
 		81C74F6B25FB3285003ED4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C74F6925FB3285003ED4ED /* LaunchScreen.storyboard */; };
 		81C74F7625FB3285003ED4ED /* OneHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C74F7525FB3285003ED4ED /* OneHabitTests.swift */; };
 		81C74F8125FB3285003ED4ED /* OneHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C74F8025FB3285003ED4ED /* OneHabitUITests.swift */; };
+		81EEE0B72653EEE6004EF2FC /* AddHabitScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EEE0B62653EEE6004EF2FC /* AddHabitScreen.xib */; };
+		81EEE0B92653EF1D004EF2FC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0B82653EF1D004EF2FC /* HomeVC.swift */; };
+		81EEE0BB2653EF3B004EF2FC /* ProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0BA2653EF3B004EF2FC /* ProgressVC.swift */; };
+		81EEE0BD2653EF46004EF2FC /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0BC2653EF46004EF2FC /* SettingsVC.swift */; };
+		81EEE0BF2653EF61004EF2FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0BE2653EF61004EF2FC /* Model.swift */; };
+		81EEE0C12653EF6E004EF2FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0C02653EF6E004EF2FC /* HomeViewModel.swift */; };
+		81EEE0C32653EF76004EF2FC /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0C22653EF76004EF2FC /* ProgressViewModel.swift */; };
+		81EEE0C52653EF80004EF2FC /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE0C42653EF80004EF2FC /* SettingsViewModel.swift */; };
+		BE71E802853A1C85574CE735 /* Pods_OneHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D719EDAD54629DE618096D /* Pods_OneHabit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09D719EDAD54629DE618096D /* Pods_OneHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D69A1DB1B6D73C708725427 /* Pods-OneHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneHabit.release.xcconfig"; path = "Target Support Files/Pods-OneHabit/Pods-OneHabit.release.xcconfig"; sourceTree = "<group>"; };
+		383BD58246C043C9CA6F359F /* Pods-OneHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneHabit.debug.xcconfig"; path = "Target Support Files/Pods-OneHabit/Pods-OneHabit.debug.xcconfig"; sourceTree = "<group>"; };
+		8160DDEB26083C7C00BAF503 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		8160DDF326083C9200BAF503 /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		8160DDF826083CA100BAF503 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8160DE002608631F00BAF503 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8160DE1B26087E6400BAF503 /* add_button_initial-final.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "add_button_initial-final.json"; sourceTree = "<group>"; };
+		8160DE2526087F3300BAF503 /* CGHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGHelper.swift; sourceTree = "<group>"; };
+		8169F558261FE68F00D67EA4 /* AddButton_withoutBubblesNum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AddButton_withoutBubblesNum.json; sourceTree = "<group>"; };
+		816CA92926098F6400798848 /* AddHabitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitScreen.swift; sourceTree = "<group>"; };
 		81C74F5B25FB3284003ED4ED /* OneHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C74F5E25FB3284003ED4ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81C74F6025FB3284003ED4ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +77,14 @@
 		81C74F7C25FB3285003ED4ED /* OneHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C74F8025FB3285003ED4ED /* OneHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHabitUITests.swift; sourceTree = "<group>"; };
 		81C74F8225FB3285003ED4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EEE0B62653EEE6004EF2FC /* AddHabitScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitScreen.xib; sourceTree = "<group>"; };
+		81EEE0B82653EF1D004EF2FC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		81EEE0BA2653EF3B004EF2FC /* ProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressVC.swift; sourceTree = "<group>"; };
+		81EEE0BC2653EF46004EF2FC /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		81EEE0BE2653EF61004EF2FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		81EEE0C02653EF6E004EF2FC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		81EEE0C22653EF76004EF2FC /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		81EEE0C42653EF80004EF2FC /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE71E802853A1C85574CE735 /* Pods_OneHabit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +113,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8160DDEA26083C4B00BAF503 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8160DDF826083CA100BAF503 /* HomeScreen.swift */,
+				8160DDF326083C9200BAF503 /* CalendarScreen.swift */,
+				8160DDEB26083C7C00BAF503 /* SettingsScreen.swift */,
+				8160DE002608631F00BAF503 /* TabBarController.swift */,
+				816CA92926098F6400798848 /* AddHabitScreen.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		81640BB226197C47007F209C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8160DE1B26087E6400BAF503 /* add_button_initial-final.json */,
+				8169F558261FE68F00D67EA4 /* AddButton_withoutBubblesNum.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		816CA978260AE61C00798848 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		81C74F5225FB3284003ED4ED = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +148,8 @@
 				81C74F7425FB3285003ED4ED /* OneHabitTests */,
 				81C74F7F25FB3285003ED4ED /* OneHabitUITests */,
 				81C74F5C25FB3284003ED4ED /* Products */,
+				D6BD4F08CCD723C36924BEAC /* Pods */,
+				F70A88CBCD9D354499E71E25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +166,9 @@
 		81C74F5D25FB3284003ED4ED /* OneHabit */ = {
 			isa = PBXGroup;
 			children = (
+				81640BB226197C47007F209C /* Animations */,
+				816CA978260AE61C00798848 /* Model */,
+				8160DDEA26083C4B00BAF503 /* ViewControllers */,
 				81C74F5E25FB3284003ED4ED /* AppDelegate.swift */,
 				81C74F6025FB3284003ED4ED /* SceneDelegate.swift */,
 				81C74F6225FB3284003ED4ED /* ViewController.swift */,
@@ -106,6 +176,15 @@
 				81C74F6725FB3285003ED4ED /* Assets.xcassets */,
 				81C74F6925FB3285003ED4ED /* LaunchScreen.storyboard */,
 				81C74F6C25FB3285003ED4ED /* Info.plist */,
+				8160DE2526087F3300BAF503 /* CGHelper.swift */,
+				81EEE0B62653EEE6004EF2FC /* AddHabitScreen.xib */,
+				81EEE0B82653EF1D004EF2FC /* HomeVC.swift */,
+				81EEE0BA2653EF3B004EF2FC /* ProgressVC.swift */,
+				81EEE0BC2653EF46004EF2FC /* SettingsVC.swift */,
+				81EEE0BE2653EF61004EF2FC /* Model.swift */,
+				81EEE0C02653EF6E004EF2FC /* HomeViewModel.swift */,
+				81EEE0C22653EF76004EF2FC /* ProgressViewModel.swift */,
+				81EEE0C42653EF80004EF2FC /* SettingsViewModel.swift */,
 			);
 			path = OneHabit;
 			sourceTree = "<group>";
@@ -128,6 +207,23 @@
 			path = OneHabitUITests;
 			sourceTree = "<group>";
 		};
+		D6BD4F08CCD723C36924BEAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				383BD58246C043C9CA6F359F /* Pods-OneHabit.debug.xcconfig */,
+				0D69A1DB1B6D73C708725427 /* Pods-OneHabit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F70A88CBCD9D354499E71E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D719EDAD54629DE618096D /* Pods_OneHabit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81C74F8525FB3285003ED4ED /* Build configuration list for PBXNativeTarget "OneHabit" */;
 			buildPhases = (
+				5B2D728A1AE005BDFA9BA750 /* [CP] Check Pods Manifest.lock */,
 				81C74F5725FB3284003ED4ED /* Sources */,
 				81C74F5825FB3284003ED4ED /* Frameworks */,
 				81C74F5925FB3284003ED4ED /* Resources */,
+				D20E7637C43D6AF30D96B0D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +330,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81C74F6B25FB3285003ED4ED /* LaunchScreen.storyboard in Resources */,
+				8160DE1D26087E6500BAF503 /* add_button_initial-final.json in Resources */,
+				81EEE0B72653EEE6004EF2FC /* AddHabitScreen.xib in Resources */,
 				81C74F6825FB3285003ED4ED /* Assets.xcassets in Resources */,
+				8169F559261FE68F00D67EA4 /* AddButton_withoutBubblesNum.json in Resources */,
 				81C74F6625FB3284003ED4ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +354,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B2D728A1AE005BDFA9BA750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneHabit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20E7637C43D6AF30D96B0D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneHabit/Pods-OneHabit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneHabit/Pods-OneHabit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneHabit/Pods-OneHabit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81C74F5725FB3284003ED4ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816CA92A26098F6400798848 /* AddHabitScreen.swift in Sources */,
+				81EEE0B92653EF1D004EF2FC /* HomeVC.swift in Sources */,
+				8160DDEC26083C7C00BAF503 /* SettingsScreen.swift in Sources */,
+				81EEE0C32653EF76004EF2FC /* ProgressViewModel.swift in Sources */,
 				81C74F6325FB3284003ED4ED /* ViewController.swift in Sources */,
+				8160DDF926083CA100BAF503 /* HomeScreen.swift in Sources */,
+				81EEE0BD2653EF46004EF2FC /* SettingsVC.swift in Sources */,
+				81EEE0BF2653EF61004EF2FC /* Model.swift in Sources */,
+				8160DE2626087F3300BAF503 /* CGHelper.swift in Sources */,
+				8160DDF426083C9200BAF503 /* CalendarScreen.swift in Sources */,
+				81EEE0C12653EF6E004EF2FC /* HomeViewModel.swift in Sources */,
+				8160DE012608631F00BAF503 /* TabBarController.swift in Sources */,
 				81C74F5F25FB3284003ED4ED /* AppDelegate.swift in Sources */,
+				81EEE0BB2653EF3B004EF2FC /* ProgressVC.swift in Sources */,
 				81C74F6125FB3284003ED4ED /* SceneDelegate.swift in Sources */,
+				81EEE0C52653EF80004EF2FC /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +589,7 @@
 		};
 		81C74F8625FB3285003ED4ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383BD58246C043C9CA6F359F /* Pods-OneHabit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +609,7 @@
 		};
 		81C74F8725FB3285003ED4ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D69A1DB1B6D73C708725427 /* Pods-OneHabit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
